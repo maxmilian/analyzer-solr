@@ -4,7 +4,7 @@ analyzer adapter for solr, we support Jieba, and stranford in the future
 
 ### Require
 
-- Lucene6.6.0
+- Lucene7.6.0
 - jieba1.0.2
 
 ### DEMO
@@ -79,6 +79,6 @@ word freq pos
         <filter class="solr.LowerCaseFilterFactory"/>
         <filter class="solr.SnowballPorterFilterFactory" language="English"/>
       </analyzer>
-    </fieldType> 
+    </fieldType>
 
 ```
